@@ -1,0 +1,138 @@
+/* navbar css */
+.navbar{
+  margin: 0%;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav-list{
+  flex: 2;
+  margin-left: 100px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.list{
+  display: flex;
+  font-weight: 500;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.list-item{
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: rgb(231, 232, 238);
+}
+
+.navbar li:hover {
+  font-weight: 600;
+  color: rgb(76, 159, 222);
+}
+
+.navbar button:hover {
+  background-color: rgb(76, 159, 222);
+  color: #fff;
+}
+.button {
+  display: flex;
+  margin-right: 40px;
+  gap: 15px;
+  padding: 8px 15px;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+/* end of nav bar */
+
+/* css for search bar */
+.searchbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 115px;
+}
+.searchbar-filter {
+  display: flex;
+  padding: 10px 20px;
+}
+
+/* end of search bar */
+
+/* css for Search filters  */
+
+.filter-container{
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  justify-content:space-evenly;
+  margin-left: 40px;
+}
+
+.button-fil{
+  display: flex;
+  margin-right: 40px;
+  gap: 8px;
+  padding: 16px 15px;
+}
+.btn-fil{
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: rgb(76, 159, 222);
+  color: white;
+}
+/* end of search filters */
+
+/*style for house*/
+
+.section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.card {
+  width: 25%;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+.card-img img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.card-content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-discription {
+  display: flex;
+  flex-direction: row;
+  gap: 15px; 
+}
+/* end of house card */
